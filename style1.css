@@ -1,0 +1,91 @@
+/* ภารกิจที่ 2: จัดสไตล์ <body> */
+body {
+  background: linear-gradient(135deg, #1a1033, #3b1c6e 60%, #0f2a4a);
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* ภารกิจที่ 3: จัดสไตล์ .card */
+.card {
+  width: 300px;
+  background-color: #1f1740;
+  border: 1px solid #7c4dff;
+  box-shadow: 0 0 20px rgba(124, 77, 255, 0.5),
+              0 0 40px rgba(0, 229, 255, 0.2);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card::before {
+  content: "♪ ♫ ♪";
+  display: block;
+  text-align: center;
+  color: #00e5ff;
+  letter-spacing: 8px;
+  margin-bottom: 10px;
+}
+
+/* ภารกิจที่ 4: จัดสไตล์รูปภาพ <img> */
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00e5ff;
+  box-shadow: 0 0 15px #00e5ff;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* ภารกิจที่ 5: จัดสไตล์ชื่อ #profile-name */
+#profile-name {
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 0 10px #b388ff;
+}
+
+/* ภารกิจที่ 6: จัดสไตล์ .bio */
+.bio {
+  color: #b8b0d8;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* ภารกิจที่ 7: จัดสไตล์ <ul> */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.07);
+  border-left: 4px solid #00e5ff;
+  border-radius: 6px;
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  color: #e8e3ff;
+}
+
+/* หัวเรื่องนอกการ์ด */
+header {
+  text-align: center;
+  color: #ffffff;
+}
+
+header h1 {
+  text-shadow: 0 0 10px #b388ff;
+  margin-bottom: 4px;
+}
+
+header p {
+  color: #b8b0d8;
+  margin-top: 0;
+}
+
+/* หัวข้อทักษะในการ์ด */
+.card h3 {
+  color: #00e5ff;
+}
